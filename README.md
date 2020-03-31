@@ -4,10 +4,10 @@ Tested on :
 * node >= 13.1
 * API that matches the schema explained below
 
-## API Endpoints Examples
-`/data` should return something like this 
-`/tradeoffs?network=<network_name>&sensor=<sensor_name>`should return something like this
-`/janitorBlacklist` should return something like this
+## API Endpoints
+1. `/data` - example data can be found [here](https://github.com/roeezolantz/MaaGruee/blob/master/mock-server/data/charts.json) <br/>
+2. `/tradeoffs?network=<network_name>&sensor=<sensor_name>` - example data can be found [here](https://github.com/roeezolantz/MaaGruee/blob/master/mock-server/data/tradeoffs.json)<br/>
+3. `/janitorBlacklist` - example data can be found [here](https://github.com/roeezolantz/MaaGruee/blob/master/mock-server/data/blacklists.json) <br/>
 
 ## !IMPORTANT - Client Environment Configurations
 1. All configurations should start with the `REACT_APP_` prefix in order to be loaded
