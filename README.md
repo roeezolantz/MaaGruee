@@ -17,6 +17,8 @@ Tested on :
 `REACT_APP_API_ADDRESS` (url ex. http://localhost:8080) - The address of the api server
 `REACT_APP_READ_ONLY` (boolean) - If set to false, the use will not be able to do any changes and save them
 `REACT_APP_ENFORCE_PATH_CASING` (boolean) - If set to false, casing will not be enforced in the path input box
+`REACT_APP_ALLOW_UNSAVED_CONFIGURATIONS_HISTORY` (boolean) - If the system should keep unsaved configurations
+`REACT_APP_SIZE_RATIO_TO_KB` (number, default is 1) - The ratio between the sizes served by the api to 1 kb
 
 **Changing the next configurations may cause problems**
 
@@ -28,9 +30,13 @@ Tested on :
 
 In the project directory, you can run:
 
+### `npm run start-mock-server`
+
+Runs a mock express server on http://localhost:8080.
+
 ### `npm start`
 
-Runs the app in the development mode.<br />
+Runs the client app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm test`
