@@ -1,0 +1,24 @@
+{
+	"name": "FUCK!@#",
+	"totalAvailableStorage": "1500000000",
+	"totalUsedStorage": "950000000",
+	"children": [
+		{
+			"name": "WOW",
+			"children": [
+				{"name": "roee", "storage": 1580000, "files": 100000, "filesQuota": 1000000, "storageQuota": 160000, "retentions": {"raw": 30, "parsed": 100, "bad": 3}},
+				{"name": "zolantz", "storage": 15800000, "files": 1000, "filesQuota": 1500, "storageQuota": 20000000, "retentions": {"raw": 3, "parsed": 30, "bad": 3}},
+				{"name": "the", "storage": 8000000, "files": 30000, "filesQuota": 30000, "storageQuota": 8500000, "retentions": {"raw": 30, "parsed": 100,"bad": 3}},
+				{"name": "king", "storage": 30000, "files": 30000, "filesQuota": 30000, "storageQuota": 30000, "retentions": {"raw": 7, "parsed": 7, "bad": 3}}
+			]
+		},
+		{
+			"name": "DAMNNNNN",
+			"children": [
+				{"name": "amit", "storage": 15800, "files": 100000, "filesQuota": 1000000, "storageQuota": 16000, "retentions": {"raw": 35, "parsed": 110, "bad": 5}},
+				{"name": "vaking", "storage": 15800000, "files": 1000, "filesQuota": 1500, "storageQuota": 20000000, "retentions": {"raw": 6, "parsed": 35, "bad": 15}},
+				{"name": "looser", "storage": 4000000, "files": 75000, "filesQuota": 73000, "storageQuota": 4500000, "retentions": {"raw": 30, "parsed": 100,"bad": 3}}
+			]
+		}
+	]
+}

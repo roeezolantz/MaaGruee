@@ -1,0 +1,73 @@
+{
+    "tradeoffs": [
+        {
+            "network": "coolNetwork",
+            "sensor": "sensor_wide",
+            "resolution": "day",
+            "tradeoffs": [
+                {
+                    "network": "coolNetwork",
+                    "sensor": "sensor_heavy",
+                    "value": 5
+                },
+                {
+                    "network": "coolNetwork",
+                    "sensor": "sensor_mid",
+                    "value": 2
+                },
+                {
+                    "network": "coolNetwork",
+                    "sensor": "sensor_full",
+                    "value": -5
+                },
+                {
+                    "network": "awsomeNetwork",
+                    "sensor": "sensor_mid",
+                    "value": -7
+                },
+                {
+                    "network": "awsomeNetwork",
+                    "sensor": "sensor_heavy",
+                    "value": 10
+                },
+                {
+                    "network": "anotherNetwork",
+                    "sensor": "sensor_heavy",
+                    "value": 1
+                },
+                {
+                    "network": "anotherNetwork",
+                    "sensor": "sensor_mid",
+                    "value": -15
+                },
+                {
+                    "network": "anotherNetwork",
+                    "sensor": "sensor_full",
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "network": "coolNetwork",
+            "sensor": "sensor_full",
+            "resolution": "hour",
+            "tradeoffs": [
+                {
+                    "network": "coolNetwork",
+                    "sensor": "sensor_heavy",
+                    "value": 5
+                },
+                {
+                    "network": "coolNetwork",
+                    "sensor": "sensor_mid",
+                    "value": 2
+                },
+                {
+                    "network": "coolNetwork",
+                    "sensor": "sensor_heavy",
+                    "value": 5
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "blacklist": [
+        {
+            "network": "pipi",
+            "agent": "kaki",
+            "type": "raw",
+            "startTime": {
+                "year": 2020,
+                "month": 1,
+                "day": 1
+            },
+            "endTime": {
+                "year": 2020,
+                "month": 2,
+                "day": 2
+            }
+        },
+        {
+            "network": "blabla",
+            "agent": "kaki",
+            "type": "curated",
+            "startTime": {
+                "year": 2019,
+                "month": 12,
+                "day": 12
+            },
+            "endTime": {
+                "year": 2020,
+                "month": 1,
+                "day": 1
+            }
+        }
+    ]
+}

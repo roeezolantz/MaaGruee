@@ -1,0 +1,24 @@
+{
+	"name": "beresh!t",
+	"totalAvailableStorage": "1500000000",
+	"totalUsedStorage": "950000000",
+	"children": [
+		{
+			"name": "coolNetwork",
+			"children": [
+				{"name": "sensor_wide", "storage": 1580000, "files": 100000, "HARstorage": 3000, "quotas":{"files": 1000000, "storage": 160000, "HARstorage": 3000}, "retentions": {"raw": 30, "parsed": 100, "bad": 3}},
+				{"name": "sensor_heavy", "storage": 15800000, "files": 1000, "quotas":{"files": 1500, "storage": 20000000}, "retentions": {"raw": 3, "parsed": 30, "bad": 3}},
+				{"name": "sensor_mid", "storage": 8000000, "files": 30000, "quotas":{"files": 30000, "storage": 8500000}, "retentions": {"raw": 30, "parsed": 100,"bad": 3, "success": 19}},
+				{"name": "sensor_full", "storage": 30000, "files": 30000, "quotas":{"files": 30000, "storage": 30000}, "retentions": {"raw": 27, "parsed": 100,"bad": 7, "success": 9}}
+			]
+		},
+		{
+			"name": "awsomeNetwork",
+			"children": [
+				{"name": "sensor_wide", "storage": 15800, "files": 100000, "quotas":{"files": 1000000, "storage": 16000}, "retentions": {"raw": 35, "parsed": 110, "bad": 5}},
+				{"name": "sensor_heavy", "storage": 15800000, "files": 1000, "quotas":{"files": 1500, "storage": 20000000}, "retentions": {"raw": 6, "parsed": 35, "bad": 15}},
+				{"name": "sensor_mid", "storage": 4000000, "files": 75000, "quotas":{"files": 73000, "storage": 4500000}, "retentions": {"raw": 30, "parsed": 100,"bad": 3, "success": 10}}
+			]
+		}
+	]
+}
